@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reebok</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 120px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.delivery-btn {
+    background-color: #e60023;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delivery-btn:hover {
+    background-color: #c6001d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 5px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.delivery-btn {
+    background-color: #e60023;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delivery-btn:hover {
+    background-color: #c6001d;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+.product-card img {
+    width: 100%;
+    height: 250px; 
+    object-fit: contain; 
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.product-info {
+    margin-top: 15px;
+}
+
+.product-category {
+    color: gray;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPu0XHFlUuWc2YFd1dN5HuZj-Z71SWhgdgcQ&s" alt="Reebok logo" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">New</a></li>
+                <li><a href="#">Icons</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Classic</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+            <div class="actions">
+                <button class="delivery-btn">Express Delivery</button>
+                <input type="search" placeholder="Search" class="search-bar">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbnuVqsgJSnmRvhGjX-7GktFNH2hbk5blzA&s" alt="Reebok Women NFX Trainer">
+                <div class="product-info">
+                    <p class="product-category">TRAINING SHOES</p>
+                    <h3>Reebok Women NFX Trainer</h3>
+                    <p class="price">₹7,599</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOI9htFvNTYekIA0A-H7HncEWKkFCui6eiQ&s" alt="Reebok Women Club C 85 W">
+                <div class="product-info">
+                    <p class="product-category">CLASSIC SHOES</p>
+                    <h3>Reebok Women Club C 85 W</h3>
+                    <p class="price">₹6,999</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDgVW27w4p6TN2H0Yt3LgVJLLrRVIwYAOog&s" alt="Reebok Women Energen Plus 2">
+                <div class="product-info">
+                    <p class="product-category">RUNNING SHOES</p>
+                    <h3>Reebok Women Energen Plus 2</h3>
+                    <p class="price">₹6,999</p>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkPeamod8ruHT9Hwb40qZeM8ArqtDdZ2SynA&s" alt="Reebok Unisex Classic Leather">
+                <div class="product-info">
+                    <p class="product-category">CLASSIC SHOES</p>
+                    <h3>Reebok Unisex Classic Leather</h3>
+                    <p class="price">₹7,999</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
